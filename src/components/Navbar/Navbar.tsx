@@ -1,7 +1,7 @@
 import "./Navbar.css";
 
 type NavbarProps = {
-    searchWidgets: (e) => void
+    searchWidgets: (e: React.ChangeEvent<HTMLInputElement>) => void
 }
 function Navbar({ searchWidgets }: NavbarProps) {
     return (
