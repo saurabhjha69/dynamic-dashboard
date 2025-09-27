@@ -47,9 +47,9 @@ function Sidebar({ isVisible, closeSidebar, data }: SidebarProps) {
         }
     }, [isVisible, data]);
 
-    const handleActiveTab = (e) => {
-        const { dataset } = e.target
-        setActiveTab(parseInt(dataset.active))
+    const handleActiveTab = (e: React.MouseEvent<HTMLSpanElement>) => {
+        const active = e.currentTarget.dataset.active;
+        if (active !== undefined) setActiveTab(parseInt(active))
     }
     const handleToggleLocalWidget = (categoryId: string, widgetId: string) => {
         setLocalWidgets((prev) =>

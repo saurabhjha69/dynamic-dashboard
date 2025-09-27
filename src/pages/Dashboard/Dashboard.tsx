@@ -17,7 +17,6 @@ import type { AppDispatch } from "../../redux/store/store";
 import Sidebar from "../../components/Sidebar/Sidebar";
 import Navbar from "../../components/Navbar/Navbar";
 import "./Dashboard.css";
-import { nanoid } from "@reduxjs/toolkit";
 import Spinner from "../../components/Spinner/Spinner";
 type Widget = {
     id: string;
@@ -145,7 +144,7 @@ function Dashboard() {
     const handleSidebarVisibility = () => {
         setSidebarVisibility(!sidebarVisibility)
     }
-    const handleWidgetSearch = (e) => {
+    const handleWidgetSearch = (e: React.ChangeEvent<HTMLInputElement>) => {
         const { value } = e.target;
         const regex = new RegExp(value, "i");
 

@@ -41,7 +41,7 @@ function Modal({isVisible,closeModal,categoryId,categoryName} : ModalProps) {
         }
     }, [isVisible])
 
-    const handleInputState = (e) => {
+    const handleInputState = (e: React.ChangeEvent<HTMLInputElement | HTMLTextAreaElement>) => {
         const {name,value} = e.target
         setInputData((inputData) => ({...inputData, [name]: value}))
     }
