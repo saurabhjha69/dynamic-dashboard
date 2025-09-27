@@ -1,0 +1,48 @@
+.header {
+    display: flex;
+    align-items: center;
+    /*   border: solid; */
+    padding: 1rem;
+    justify-content: space-between;
+}
+
+.header .tools {
+    display: flex;
+    gap: 0.4rem;
+    justify-content: space-between;
+    align-items: center;
+}
+
+button,
+span {
+    height: 2rem;
+    font-size: 12px;
+    line-height: 12px;
+    background: white;
+    border: 1px solid lightgray;
+    cursor: pointer;
+    padding: 0.4rem;
+    border-radius: 0.3rem;
+}
+
+.btn_refresh svg {
+    transform: rotateZ(55deg);
+}
+
+.date_filter {
+    display: flex;
+    align-items: center;
+    height: 2rem;
+    border: 2px solid darkblue;
+    color: darkblue;
+    font-weight: 500;
+    gap: 0.3vw;
+}
+
+.date_filter svg path {
+    fill: darkblue;
+}
+.date_filter svg {
+    width: fit-content;
+    border-right: 2px solid darkblue;
+}

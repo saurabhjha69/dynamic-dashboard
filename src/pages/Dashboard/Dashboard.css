@@ -1,0 +1,21 @@
+.dashboard {
+    display: grid;
+    gap: 1rem;
+}
+
+.loadingContainer,.errorContainer {
+    position: absolute;
+    transform: translate(-50%,-50%);
+    top: 50%;
+    left: 50%;
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+}
+
+.errorContainer {
+    color: red ;
+    text-align: center;
+    background-color: transparent;
+    border: none;
+}

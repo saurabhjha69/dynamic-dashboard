@@ -1,0 +1,74 @@
+[
+  {
+    "id": "id-1",
+    "name": "Monitoring",
+    "widgets": [
+      {
+        "id": "widget-1",
+        "title": "CPU Usage Tracker",
+        "description": "Tracks real-time CPU utilization across all servers.",
+        "isActive": true
+      },
+      {
+        "id": "widget-2",
+        "title": "Memory Consumption",
+        "description": "Monitors RAM usage and alerts when usage exceeds threshold.",
+        "isActive": true
+      },
+      {
+        "id": "widget-3",
+        "title": "Network Traffic",
+        "description": "Displays inbound and outbound network activity per second.",
+        "isActive": false
+      }
+    ]
+  },
+  {
+    "id": "id-2",
+    "name": "Analytics",
+    "widgets": [
+      {
+        "id": "widget-4",
+        "title": "User Growth",
+        "description": "Shows user sign-up trends over the last 12 months.",
+        "isActive": true
+      },
+      {
+        "id": "widget-5",
+        "title": "Revenue Breakdown",
+        "description": "Pie chart of revenue streams by product and region.",
+        "isActive": true
+      }
+    ]
+  },
+  {
+    "id": "id-3",
+    "name": "Operations",
+    "widgets": [
+      {
+        "id": "widget-6",
+        "title": "Incident Reports",
+        "description": "Dashboard of recent incidents and their resolution status.",
+        "isActive": true
+      },
+      {
+        "id": "widget-7",
+        "title": "Deployment Status",
+        "description": "Tracks progress of ongoing deployments in production.",
+        "isActive": false
+      },
+      {
+        "id": "widget-8",
+        "title": "Task Queue",
+        "description": "Shows pending jobs in background task queues.",
+        "isActive": true
+      },
+      {
+        "id": "widget-9",
+        "title": "Service Health",
+        "description": "Overview of uptime and response time of core services.",
+        "isActive": true
+      }
+    ]
+  }
+]

@@ -1,0 +1,43 @@
+nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 1rem;
+    background-color: white;
+}
+
+.search-box input {
+    border: 1px solid lightgray;
+    border-radius: 2rem;
+    padding: 0.5rem 1rem;
+}
+
+.search-box input::placeholder {
+    color: black;
+}
+
+ul {
+    list-style: none;
+    display: flex;
+    gap: 0.5rem;
+    align-items:center ;
+}
+
+ul li a {
+    text-decoration: none;
+    color: black;
+    font-size: 18px;
+    font-weight: bold;
+    display: flex;
+    align-items: center;
+    gap: 0.4rem;
+}
+
+ul li a.first {
+    color: gray;
+    font-size: 14px;
+}
+
+ul li a.first svg {
+    fill: gray;
+}
