@@ -1,6 +1,6 @@
 # DynamicDashboardApp
 
-A React dashboard project with dynamic widgets, sidebar, and personalized dashboard features.
+A React dashboard project with dynamic widgets, sidebar, and personalized dashboard features.   
 Live link: https://dynamic-dashboard-cyan.vercel.app/
 
 ---
